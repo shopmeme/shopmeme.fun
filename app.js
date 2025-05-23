@@ -5,7 +5,7 @@ const recipientAddressEth = '0xfd112A92a49733A6d354b6f441060Ae56F2D723B'; // You
 const recipientAddressBsc = '0xfd112A92a49733A6d354b6f441060Ae56F2D723B'; // Your BSC/USDT address
 
 // USDT token addresses (ERC-20 on Ethereum, BEP-20 on BSC)
-const usdtAddressEth = '0xdAC17F958D2ee523a2206206994597C13D831ec7'; // Mainnet USDT
+const usdtAddressEth = '0xdac17f958d2ee523a2206206994597c13d831ec7'; // Mainnet USDT
 const usdtAddressBsc = '0x55d398326f99059fF775485246999027B3197955'; // BSC Mainnet USDT
 
 // Define all available meme coins with names, images, and contract addresses
