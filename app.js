@@ -283,7 +283,7 @@ const resetApp = () => {
 };
 
 // Embed YouTube video using the link
-const youtubeLink = 'https://www.youtube.com/watch?v=OH4oOYIULlE&pp=0gcJCbAJAYcqIYzv'; // Replace with your YouTube link, e.g., https://www.youtube.com/watch?v=dQw4w9WgXcQ
+const youtubeLink = 'https://www.youtube.com/watch?v=OH4oOYIULlE&pp=0gcJCbAJAYcqIYzv';
 const videoId = youtubeLink.split('v=')[1]?.split('&')[0]; // Extracts video ID (e.g., dQw4w9WgXcQ)
 const videoContainer = document.getElementById("video-container");
 const iframeCode = `
