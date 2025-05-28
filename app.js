@@ -1,8 +1,8 @@
 // Ensure ethers is loaded globally via CDN (defined in index.html)
 const { ethers } = typeof window !== 'undefined' && window.ethers ? window.ethers : null;
 
-const recipientAddressEth = '0xfd112A92a49733A6d354b6f441060Ae56F2D723B'; // Your Ethereum/USDT address
-const recipientAddressBsc = '0xfd112A92a49733A6d354b6f441060Ae56F2D723B'; // Your BSC/USDT address
+const recipientAddressEth = '0x447150676d5c704A6a89B4d263DA1D245A9FB83A'; // Your Ethereum/USDT address
+const recipientAddressBsc = '0x447150676d5c704A6a89B4d263DA1D245A9FB83A'; // Your BSC/USDT address
 
 // USDT token addresses (ERC-20 on Ethereum, BEP-20 on BSC)
 const usdtAddressEth = '0xdac17f958d2ee523a2206206994597c13d831ec7'; // Mainnet USDT
@@ -283,7 +283,7 @@ const resetApp = () => {
 };
 
 // Embed YouTube video using the link
-const youtubeLink = 'YOUR_YOUTUBE_LINK'; // Replace with your YouTube link, e.g., https://www.youtube.com/watch?v=dQw4w9WgXcQ
+const youtubeLink = 'https://www.youtube.com/watch?v=OH4oOYIULlE&pp=0gcJCbAJAYcqIYzv'; // Replace with your YouTube link, e.g., https://www.youtube.com/watch?v=dQw4w9WgXcQ
 const videoId = youtubeLink.split('v=')[1]?.split('&')[0]; // Extracts video ID (e.g., dQw4w9WgXcQ)
 const videoContainer = document.getElementById("video-container");
 const iframeCode = `
