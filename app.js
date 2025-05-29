@@ -222,8 +222,8 @@ const selectCoin = (coin) => {
 // Payment logic for EVM chains (USDT for ETH/BSC)
 const payNow = async () => {
     const amount = parseFloat(document.getElementById("paymentAmount").value);
-    if (!amount || amount < 50 || amount > 10000) {
-        document.getElementById("paymentStatus").textContent = "Invalid amount. Must be between $50 and $10,000.";
+    if (!amount || amount < 50 || amount > 100000) {
+        document.getElementById("paymentStatus").textContent = "Invalid amount. Must be between $50 and $100,000.";
         return;
     }
 
